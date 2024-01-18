@@ -31,7 +31,7 @@ function App() {
     <div className=" w-full h-full max-w-4xl mx-auto px-4 py-10">
       <div className=" flex flex-col justify-center items-center gap-3">
         <p>Click the button to check a random cocktail recipe for your after work</p>
-        <button onClick={() => fetchData()} className=" bg-gray-800 text-white px-4 py-2 w-full rounded-md md:w-40">Get new Cocktail</button>
+        <button onClick={() => fetchData()} className=" bg-gray-800 text-white px-4 py-2 w-full rounded-md md:w-40">Get for New Cocktail</button>
       </div>
       <div className=" bg-orange-50 p-6 mt-8">
         <h1 className="text-4xl font-bold mt-6 underline">{strDrink}</h1>
