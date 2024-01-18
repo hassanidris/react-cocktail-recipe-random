@@ -53,7 +53,7 @@ function App() {
  
 
   return (
-    <div className=" w-full h-screen  flex justify-center items-center">
+    <div className=" w-full flex justify-center items-center">
       <div className="max-w-4xl mx-auto px-4 py-10">
         <div className=" flex flex-col justify-center items-center gap-3">
           <p>Click the button to check a random cocktail recipe for your after work</p>
