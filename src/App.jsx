@@ -29,11 +29,11 @@ function App() {
 
   return (
     <div className=" w-full h-full max-w-4xl mx-auto px-4 py-10">
-      <div className=" flex flex-col justify-center items-center gap-2">
+      <div className=" flex flex-col justify-center items-center gap-3">
         <p>Click the button to check a random cocktail recipe for your after work</p>
         <button onClick={() => fetchData()} className=" bg-gray-800 text-white px-4 py-2 w-full rounded-md md:w-40">Get new Cocktail</button>
       </div>
-      <div className=" bg-orange-50 p-6 mt-5">
+      <div className=" bg-orange-50 p-6 mt-8">
         <h1 className="text-4xl font-bold mt-6 underline">{strDrink}</h1>
         <p>Glass Type: <span>{strGlass}</span></p>
         <div className=" md:grid md:grid-cols-2 md:gap-4">
@@ -57,6 +57,7 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='text-center p-4 text-black text-xs'>&copy; Random Cocktail || made by <a className=' cursor-pointer underline hover:text-cyan-950' href="https://github.com/hassanidris" target='_blank'>Hassen Ahmed</a></div>
     </div>
   )
 }
