@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import useAxios from "./hooks/useAxios"
+import Skeleton from "./components/Skeleton";
 
 
 function App() {
@@ -12,7 +13,29 @@ function App() {
   }, []);
 
   if(loading) {
-    return <h1>Loading...</h1>;
+    return (
+        <div className=" w-full h-full max-w-4xl mx-auto px-4 py-10">
+        <div className=" flex flex-col justify-center items-center gap-3">
+        <Skeleton className='h-16 md:w-80' />
+        </div>
+        <div className=" p-12 mt-8">
+        <Skeleton className='h-20 md:w-60' />
+          <div className=" md:grid md:grid-cols-2 md:gap-8">
+            <div className=" mt-4 h-80">
+            <Skeleton className=' h-80 md:w-80 mt-3' />
+            </div>
+            <div>
+              <div className=" my-6">
+              <Skeleton className='h-32 md:w-60' />
+              </div>
+              <div>
+              <Skeleton className='h-32 md:w-60' />
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      )
   }
 
   let ingredients = [];
