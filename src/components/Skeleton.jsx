@@ -3,7 +3,7 @@
 const Skeleton = ({ className }) => {
   return (
     <div className=" animate-pulse">
-        <div className={`bg-gray-200 rounded-md ${className}`}></div>
+        <div className={`bg-gray-100 rounded-md ${className}`}></div>
     </div>
   )
 }
