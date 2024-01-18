@@ -45,7 +45,7 @@ function App() {
               <h4 className=" text-4xl font-bold mb-2">Ingredients</h4>
               {ingredients.map((item, index) =>
                 <div className=" flex text-sm">
-                <li>{item.ingredient}<span className=" italic text-gray-300"> - {item.measure}</span></li>
+                <li>{item.ingredient}<span className=" italic text-gray-400"> - {item.measure}</span></li>
             
               </div>
               )}
