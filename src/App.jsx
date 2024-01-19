@@ -83,7 +83,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='text-center p-4 text-black text-xs'>&copy; Random Cocktail || made by <a className=' cursor-pointer underline hover:text-cyan-950' href="https://github.com/hassanidris" target='_blank'>Hassen Ahmed</a></div>
+        <div className='text-center p-4 text-black text-xs'>&copy; {new Date().getFullYear()} Random Cocktail || made by <a className=' cursor-pointer underline hover:text-cyan-950' href="https://github.com/hassanidris" target='_blank'>Hassen Ahmed</a></div>
       </div>
     </div>
   )
