@@ -78,7 +78,7 @@ function App() {
             </div>
             <div>
               <div className=" my-6">
-                <h4 className=" text-4xl font-bold mb-2">Ingredients</h4>
+                <h2 className=" text-4xl font-bold mb-2">Ingredients</h2>
                 <ul className=" text-sm">
                   {ingredients.map((item, index) => (
                     <li>
@@ -92,7 +92,7 @@ function App() {
                 </ul>
               </div>
               <div>
-                <h4 className=" text-4xl font-bold mb-2">Instructions</h4>
+                <h2 className=" text-4xl font-bold mb-2">Instructions</h2>
                 <p className=" leading-snug tracking-wide">{strInstructions}</p>
               </div>
             </div>
