@@ -79,7 +79,7 @@ function App() {
             <div>
               <div className=" my-6">
                 <h4 className=" text-4xl font-bold mb-2">Ingredients</h4>
-                <ul className=" flex text-sm">
+                <ul className=" text-sm">
                   {ingredients.map((item, index) => (
                     <li>
                       {item.ingredient}
